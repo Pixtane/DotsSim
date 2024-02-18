@@ -1,0 +1,26 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  border: 1px solid black;
+}
+
+#controls {
+  display:block;
+  position:fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 9999;
+  user-select: none;
+  
+  color: black;
+  text-shadow: 
+    -1px -1px 0 white,  
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
